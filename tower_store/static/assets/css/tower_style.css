@@ -1,0 +1,18 @@
+/* Google Font - Fugaz One & Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto:wght@700&display=swap');
+
+/* base.html - header style */
+#tower_records_navbar{
+    background-color: rgb(255, 204, 0);
+}
+
+#tower_records_contact_link, #navbarDropdown{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+#tower_records_logo{
+    color: #000;
+    font-family: 'Fugaz One', cursive;
+    font-size: 1.5em;
+}
