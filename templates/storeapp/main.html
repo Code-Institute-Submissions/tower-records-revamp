@@ -1,2 +1,17 @@
 {% extends './base.html' %}
 {% load static %}
+
+{% block css_style %} <link rel="stylesheet" href="{% static 'assets/css/tower_mainpage.css' %}"> {% endblock %}
+
+{% block main_content %}
+    <section id="tower_records_banner" class="bg-accent bg-position-center bg-size-cover py-3 py-sm-5">
+        <div class="container py-5">
+          <div class="row pt-md-5 pb-lg-9">
+            <div class="col-xl-10 col-lg-8 col-md-10 py-xl-3">
+                <h1 id="tower_records_banner_text" class="display-5">Specialists in music, film, hi-fi, merchandise and more!</h1>
+                <div class="py-4"><a id="shop_now_btn" class="btn btn-dark btn-lg" href="#demos" data-scroll="">SHOP NOW<i class="ci-arrow-down-circle ms-2"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+{%endblock%}

@@ -1,0 +1,14 @@
+#tower_records_banner{
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tower_records_banner_text{
+    color: #fff;
+    font-weight: bold;
+}
+
+#shop_now_btn{
+    font-weight: bold;
+}
