@@ -44,7 +44,7 @@
                                 
                                 {% for category in categories %}
                                 <li {% if storeCategory.slug == category.slug %}class="selected" {% endif %}>
-                                    <a class="dropdown-item" href="">{{ category.categoryName| title }}</a>
+                                    <a class="dropdown-item" href="{{category.get_absolute_url}}">{{ category.categoryName| title }}</a>
                                 </li>
                                 {% endfor %}
                             </ul>

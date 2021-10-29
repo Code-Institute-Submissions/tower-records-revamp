@@ -10,7 +10,7 @@ class storeCategory(models.Model):
         verbose_name_plural = 'categories'
 
     def get_absolute_url(self):
-        return reverse("store:category_list", args=[self.slug])
+        return reverse("tower_store:category_list", args=[self.slug])
     
 
     def __str__(self):
@@ -36,7 +36,7 @@ class storeProduct(models.Model):
         ordering = ('-createdOn',)
 
     def get_absolute_url(self):
-        return reverse('store:product_detail', args=[self.slug])
+        return reverse('tower_store:more_detail', args=[self.slug])
     
     def __str__(self):
         return self.productTitle
