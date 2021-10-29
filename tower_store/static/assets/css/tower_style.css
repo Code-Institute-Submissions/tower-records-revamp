@@ -6,14 +6,13 @@
     background-color: rgb(255, 204, 0);
 }
 
-#tower_records_contact_link, #navbarDropdown{
-    font-family: 'Roboto', sans-serif;
-    color: #000;
-}
-
 #tower_records_logo{
     color: #000;
     font-family: 'Fugaz One', cursive;
     font-size: 1.5em;
 }
 
+#tower_records_contact_link, #navbarDropdown{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
