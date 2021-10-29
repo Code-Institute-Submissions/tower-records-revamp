@@ -21,6 +21,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('tower_store.urls', namespace='tower_store')),
+    path('shopping-basket/', include('tower_basket.urls', namespace='tower_basket')),
 ]
 
 if settings.DEBUG:

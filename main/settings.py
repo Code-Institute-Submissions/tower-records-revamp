@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'tower_store',
+    'tower_basket',
 ]
 
 MIDDLEWARE = [
