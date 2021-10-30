@@ -39,6 +39,15 @@
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 CATALOG
                             </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{% url "tower_store:all_products" %}">All</a></li>
+                                
+                                {% for category in categories %}
+                                <li {% if storeCategory.slug == category.slug %}class="selected" {% endif %}>
+                                    <a class="dropdown-item" href="{{category.get_absolute_url}}">{{ category.categoryName| title }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
                         </li>
                         <li class="nav-item">
                             <a id="tower_records_contact_link" class="nav-link" aria-current="page" href="/">CONTACT</a>
